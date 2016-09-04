@@ -1,0 +1,24 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-arrow": "babel arrow-function -d build/arrow-function",
+    "build-default-param": "babel default-parameters -d build/default-parameters"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertobebz/ES6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertobebz/ES6/issues"
+  },
+  "homepage": "https://github.com/albertobebz/ES6#readme",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0"
+  }
+}
