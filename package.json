@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build-arrow": "babel arrow-function -d build/arrow-function",
-    "build-default-param": "babel default-parameters -d build/default-parameters"
+    "build-default-param": "babel default-parameters -d build/default-parameters",
+    "build-rest-spread": "babel rest-and-spread -d build/rest-and-spread",
+    "build-destruct": "babel destructoring -d build/destructoring"
   },
   "repository": {
     "type": "git",
